@@ -14,7 +14,6 @@ type rcsv struct {
 
 func (r *rcsv) Next() {
 	r.res, r.err = r.reader.Read()
-
 }
 
 func (r *rcsv) Data() []string {
